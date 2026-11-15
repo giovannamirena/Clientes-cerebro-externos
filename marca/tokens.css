@@ -1,0 +1,11 @@
+/* Colores y tipografías de la marca. Valores sobrios por defecto: cámbialos cuando se cargue la marca. */
+:root {
+  --tinta: #1a1a1a;
+  --tinta-suave: #555555;
+  --fondo: #ffffff;
+  --fondo-alterno: #f4f4f2;
+  --acento: #1a1a1a;
+  --linea: #d9d9d6;
+  --fuente-titulo: Georgia, "Times New Roman", serif;
+  --fuente-texto: "Helvetica Neue", Arial, sans-serif;
+}

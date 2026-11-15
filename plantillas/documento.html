@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Documento</title>
+<link rel="stylesheet" href="../marca/tokens.css">
+<!-- Al copiar esta plantilla a entregables/<carpeta>/, cambia la ruta a ../../marca/tokens.css y la del logo. -->
+<style>
+  @page { size: Letter; margin: 22mm 20mm 20mm 20mm; }
+  * { box-sizing: border-box; }
+  body { font-family: var(--fuente-texto); color: var(--tinta); font-size: 11pt; line-height: 1.5; margin: 0; }
+  header { display: flex; justify-content: center; padding-bottom: 8mm; border-bottom: 1px solid var(--linea); margin-bottom: 10mm; }
+  header img { max-height: 24mm; max-width: 70mm; }
+  header .sin-logo { font-family: var(--fuente-titulo); font-size: 16pt; letter-spacing: .04em; }
+  h1 { font-family: var(--fuente-titulo); font-size: 20pt; line-height: 1.2; margin: 0 0 3mm; color: var(--acento); }
+  h2 { font-family: var(--fuente-titulo); font-size: 13pt; margin: 8mm 0 2mm; color: var(--acento); break-after: avoid; }
+  p { margin: 0 0 3mm; }
+  .meta { color: var(--tinta-suave); font-size: 10pt; margin-bottom: 8mm; }
+  table { width: 100%; border-collapse: collapse; margin: 4mm 0; font-size: 10.5pt; }
+  th, td { text-align: left; padding: 2.5mm 3mm; border-bottom: 1px solid var(--linea); vertical-align: top; }
+  th { background: var(--fondo-alterno); }
+  footer { margin-top: 12mm; padding-top: 4mm; border-top: 1px solid var(--linea); color: var(--tinta-suave); font-size: 9pt; text-align: center; }
+</style>
+</head>
+<body>
+  <header>
+    <!-- Con logo: <img src="../marca/logo/logo.png" alt="__NEGOCIO__"> -->
+    <div class="sin-logo">__NEGOCIO__</div>
+  </header>
+
+  <h1>Título del documento</h1>
+  <p class="meta">Lugar, fecha · Para: destinatario</p>
+
+  <p>Primer párrafo.</p>
+
+  <h2>Sección</h2>
+  <p>Texto de la sección.</p>
+
+  <footer>__NEGOCIO__ · contacto por definir</footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+# Datos sensibles (personas atendidas, expedientes, originales): solo en esta computadora, NUNCA a GitHub
+privado/
+
+# Originales de la bandeja: se leen y se quedan en la computadora
+bandeja/**/*.pdf
+bandeja/**/*.docx
+bandeja/**/*.pptx
+bandeja/**/*.xlsx
+bandeja/**/*.xls
+bandeja/**/*.csv
+bandeja/**/*.jpg
+bandeja/**/*.jpeg
+bandeja/**/*.png
+bandeja/**/*.heic
+
+# Pesados
+*.mp4
+*.mov
+*.m4v
+*.wav
+*.zip
+*.psd
+*.ai
+
+# Sistema
+.DS_Store
+Thumbs.db
+__pycache__/
+.claude/settings.local.json

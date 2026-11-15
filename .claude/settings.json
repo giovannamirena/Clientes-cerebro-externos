@@ -1,0 +1,45 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && git pull --ff-only --quiet || echo \"[cerebro] No pude actualizar (sin internet o hay cambios sin guardar). Avisale.\"",
+            "timeout": 60
+          },
+          {
+            "type": "command",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && cat PENDIENTES.md",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && git add -A && git commit -q -m \"Autoguardado de sesion\" && git push -q || exit 0",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git status*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(git pull*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(python scripts/*)",
+      "Bash(python3 scripts/*)",
+      "Bash(py -3 scripts/*)"
+    ]
+  }
+}
