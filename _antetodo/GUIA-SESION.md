@@ -57,7 +57,10 @@ App de Claude → Code → abrir carpeta → confiar. Escribir: *"¿Quién soy, 
 - [ ] Después de una respuesta, en GitHub aparece un commit "Autoguardado de sesion".
 
 ## Paso 6 · Entrevista (30–40 min)
-*"Hazme la entrevista."* Que conteste dictando. No hace falta terminarla: se retoma sola.
+*"Hazme la entrevista."* Su Claude primero investiga en internet lo público de ella y de su negocio (con SU cuenta, no
+la de Antetodo), se lo enseña para que corrija y luego solo pregunta lo que falta. Que conteste dictando.
+Si es clienta de Antetodo y ya tenemos su sistema de diseño, se carga en `marca/` antes de la sesión (versión para
+compartir de sistemadiseno, logos de su carpeta de Identidad; nada interno). No hace falta terminarla: se retoma sola.
 Recordarle: sin nombres de clientes ni pacientes.
 
 ## Paso 7 · Conexiones (10 min, opcional)

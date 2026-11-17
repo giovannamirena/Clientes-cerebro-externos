@@ -10,8 +10,20 @@ description: >-
 
 Las preguntas están en `ENTREVISTA.md` (raíz del cerebro), por bloques.
 
+## Antes de preguntar: investiga lo público
+Antes de la primera pregunta, y solo la primera vez (si no existe `conocimiento/perfil-publico.md`):
+1. Dile en una línea que vas a revisar lo que ya es público de ella y de su negocio para no preguntarle lo que ya se sabe.
+2. Busca en internet: su sitio web, sus redes (Instagram, Facebook, TikTok, LinkedIn, YouTube), Google Maps, directorios
+   profesionales, notas de prensa, entrevistas, premios, charlas y alianzas. Cuidado con personas del mismo nombre:
+   confirma que cada fuente es ella.
+3. Guarda en `conocimiento/perfil-publico.md`, con fecha: cada dato con su liga de fuente, separando lo que dice ella o su
+   negocio (sitio, redes) de lo que dicen otros (prensa). Copia textual, corto, algún texto suyo que muestre cómo escribe.
+   Nada privado (dirección de casa, familia, teléfono personal) aunque aparezca.
+4. Enséñale un resumen de 5 a 8 líneas y pregúntale qué está mal o viejo. Lo que corrija manda sobre lo de internet.
+5. En la entrevista, **no preguntes lo que ya quedó confirmado**: pregunta solo lo que falta o lo que no cuadra.
+
 ## Cómo se hace
-1. Lee `ENTREVISTA.md` y lo que ya exista en `conocimiento/` para no repetir preguntas contestadas.
+1. Lee `ENTREVISTA.md`, `conocimiento/perfil-publico.md` y lo que ya exista en `conocimiento/` para no repetir preguntas contestadas.
 2. Pregunta **un bloque a la vez, de 2 a 4 preguntas por mensaje**, en lenguaje sencillo. Ella puede contestar dictando.
    Si contesta corto, pide un ejemplo. Si dice "luego", anótalo en `PENDIENTES.md` y sigue.
 3. No completes con suposiciones. Lo que no dijo queda como `[pendiente]`.
