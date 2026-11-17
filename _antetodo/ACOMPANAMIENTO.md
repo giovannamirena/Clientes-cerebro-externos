@@ -3,9 +3,9 @@
 Para Gio. Sirve para ir un paso adelante mientras las dos instalan al mismo tiempo: qué les va a preguntar su
 computadora o su Claude, qué se autoriza y qué debes ver tú antes de pasar al siguiente paso.
 
-| | Jacky (abogada) | Alma (doctora) |
+| | Jacky (doctora) | Alma (abogada) |
 |---|---|---|
-| Repo | `giovannamirena/cerebro-abogada` | `giovannamirena/cerebro-doctora` |
+| Repo | `jackyaragon/Cerebro-Doctora` (antes `giovannamirena/cerebro-doctora`) | `alma-abogada/Cerebro-Abogada` (antes `giovannamirena/cerebro-abogada`) |
 | Carpeta en su computadora | `jacky-cerebro` | `alma-cerebro` |
 | Prefijo de sus skills | `jk-` | `al-` |
 | Tu copia en GIONEW | `Documents\Claude\jacky-cerebro` | `Documents\Claude\alma-cerebro` |
@@ -126,8 +126,8 @@ Recordarles: sin nombres de clientes ni pacientes.
 | 7. Datos y números | Dónde lleva ingresos y gastos, asuntos o pacientes, agenda, qué número quiere ver, quién más toca los datos | `conocimiento/datos-y-numeros.md` |
 | 8. Reglas y cuidado | Qué nunca sale de su computadora, qué revisa siempre ella, qué jamás hacer en su nombre | `memoria/preferencias.md` |
 | 9. Metas | Qué quiere lograr en un mes y en seis, la primera cosa que le pediría | `conocimiento/metas.md` y `PENDIENTES.md` |
-| Solo Jacky | Materias y plaza, escritos y contratos, control de términos, cómo cobra, fuentes legales | junto con el bloque que toque |
-| Solo Alma | Especialidad, padecimientos, material para pacientes, expediente electrónico, clases y congresos, fuentes clínicas | junto con el bloque que toque |
+| Solo Alma | Materias y plaza, escritos y contratos, control de términos, cómo cobra, fuentes legales | junto con el bloque que toque |
+| Solo Jacky | Especialidad, padecimientos, material para pacientes, expediente electrónico, clases y congresos, fuentes clínicas | junto con el bloque que toque |
 
 Al final Claude entrega: un resumen de una pantalla, la lista de lo que quedó `[pendiente]` y **propone 3 skills**
 para que elijan una. Durante la entrevista va a pedir permiso para escribir archivos en `conocimiento/`: permitir.
